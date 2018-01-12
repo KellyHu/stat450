@@ -1,0 +1,30 @@
+---
+title: "stat450_111"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Introduction
+I'm Jingyi Huang. I'm a fourth-year student majoring in Statistics. I love working with data and find the pattern behind the data.
+
+## Favorite equation: Least Squares equation
+$$\hat{y} = a + bx$$
+I like this equation because we can use this to estimate and make perdiction given the data.
+
+## Data and the plot
+
+I like this dataset because it comes from an experiment to compare yields (as measured by dried weight of plants) obtained under a control and two different treatment conditions. In this way, we can understand more about the growth process of the plant and take care of it better.
+
+
+
+```{r PlantGrowth, echo=FALSE}
+x<- data("PlantGrowth")
+head(PlantGrowth,5)
+plot(PlantGrowth)
+```
+
+
